@@ -1,4 +1,9 @@
-var request= new XMLHttpRequest();
+var request;
+if (window.XMLHttpRequest){
+  request=new XMLHttpRequest();
+}else{
+    request=new ActiveXObject('Microsoft.XMLHTTP');
+  }
 request.open('GET','data.txt');
 request.onreadystatechange=function(){
 
