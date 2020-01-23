@@ -4,7 +4,7 @@ if (window.XMLHttpRequest){
 }else{
     request=new ActiveXObject('Microsoft.XMLHTTP');
   }
-request.open('GET','data.txt');
+request.open('GET','data.xml');
 request.onreadystatechange=function(){
 
     if((request.readyState===4) && (request.status===200)){

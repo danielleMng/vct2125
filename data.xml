@@ -1,0 +1,18 @@
+<singers>
+ <singer>
+  <name> Charlotte Dipanda</name>
+  <album>Un jour dans ma vie</album>
+  <year>2019</year>
+ </singer>
+ <singer>
+  <name>Manu Dibango</name>
+  <album>Ndolam</album>
+  <year>2011</year>
+ </singer>
+ <singer>
+  <name> Lady ponce</name>
+  <album>Extreme</album>
+  <year>2020</year>
+ </singer>
+ 
+</singers>
