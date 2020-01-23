@@ -9,8 +9,10 @@ request.onreadystatechange=function(){
 
     if((request.readyState===4) && (request.status===200)){
       var items= JSON.parse(request.responseText);
-      console.log(items);
-      var output+='<ul>';
+      var output='<ul>';
+      for(var key in items){
+       ouput+='<li>'+ items[key].name + '</li>';
+      }
       document.getElementById('update').innerHTML=output;
     }
 }
