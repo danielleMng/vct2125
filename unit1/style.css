@@ -49,7 +49,7 @@ body{
     overflow: hidden;
     border-bottom: 1px dotted #ccc;
     animation: myanim 1s;
-    transition: height 0.3s ease-out 
+    transition: height 0.3s ease-out; 
 }
 #update li:hover{
     background: #fffce5;
