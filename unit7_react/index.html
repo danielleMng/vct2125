@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Learning react</title>
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src=" https://unpkg.com/babel-core@6.26.3/, https://unpkg.com/@babel/core@7.1.2/"></script>
 </head>
+
 <body>
-    
+    <div id="root"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/babel">
+       const Hello = ()=>{
+           return(
+               <div className="heading">
+                 <h1> Welcome to react</h1>
+                </div>
+           )
+       };
+       ReactDOM.render(
+           <Hello library="React" message="Enjoy!"/>,
+          document.getElementaryById("root")
+       );
+    </script>
 </body>
+
 </html>
